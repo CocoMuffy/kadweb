@@ -11,15 +11,17 @@
 
 <body>
   <script src="script.js"></script>
-    <div id="navSide" class="sidebar">
-      <a href="#">About Us</a>
-      <a href="#">Learn</a>
-      <a href="#">For Parents</a>
-      <a href="#">For Schools</a>
-      <a href="#">Stories</a>
-    </div>
+    <div id="navSide" class="sidepanel">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">About</a>
+    <a href="#">Resources</a>
+    <a href="#">For Parents</a>
+    <a href="#">For Teens</a>
+    <a href="#">Story Archive</a>
+    <a href="#">Interested in Submitting?</a>
+  </div>
   <div id="main">
-    <button type="button" class="open" onclick="openNav()">
+    <button type="menuImg" class="open" onclick="openNav()">
     <input type="image" src="./menu.svg" alt="Menu" id="menuImg" width="25" height="25">
     </button>
   </div>
@@ -29,5 +31,4 @@
     <h2>Real People. <br> Real Stories. <br></h2>
   </div>
 </body>
-
 </html>

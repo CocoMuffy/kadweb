@@ -1,16 +1,8 @@
-toggle = false;
-
-function openNav(){
-    toggle = !toggle;
+function openNav() {
+  document.getElementById("navSide").style.width = "250px";
 }
 
-if (toggle == true){
-    document.getElementById("navSide").style.width = "250px";
-    document.getElementById("main").style.marginLeft = "250px";
+/* Set the width of the sidebar to 0 (hide it) */
+function closeNav() {
+  document.getElementById("navSide").style.width = "0";
 }
-
-if (toggle == false){
-    document.getElementById("navSide").style.width = "0";
-    document.getElementById("main").style.marginLeft="0";
-}
-
