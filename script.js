@@ -1,12 +1,16 @@
-// variables
+toggle = false;
 
-function preload(){
+function openNav(){
+    toggle = !toggle;
+}
 
+if (toggle == true){
+    document.getElementById("navSide").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
 }
-function setup(){
-createCanvas(1920, 1080);
+
+if (toggle == false){
+    document.getElementById("navSide").style.width = "0";
+    document.getElementById("main").style.marginLeft="0";
 }
-function draw(){
-background(0);
-Text("how are you?", 200, 200);
-}
+

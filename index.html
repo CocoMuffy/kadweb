@@ -4,22 +4,30 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>repl.it</title>
+  <title>KAD: Home</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
-
-  <!-- p5play -->
-  <!-- Latest p5.js -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.8.0/p5.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.8.0/addons/p5.sound.min.js"></script>
-
-   <!-- updated to local files  -->
-  <script src="planck.min.js"></script>
-  <script src="p5play.js"></script>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
   <script src="script.js"></script>
+    <div id="navSide" class="sidebar">
+      <a href="#">About Us</a>
+      <a href="#">Learn</a>
+      <a href="#">For Parents</a>
+      <a href="#">For Schools</a>
+      <a href="#">Stories</a>
+    </div>
+  <div id="main">
+    <button type="button" class="open" onclick="openNav()">
+    <input type="image" src="./menu.svg" alt="Menu" id="menuImg" width="25" height="25">
+    </button>
+  </div>
+  <h3 class="body"> KAD, or Kids Against Drugs is an organization started to address the problem in rural Kentucky of drug abuse and addiction.
+    We want to do this through delivering real stories from real people that kids can connect with.</h3>
+  <div id="realPeople">
+    <h2>Real People. <br> Real Stories. <br></h2>
+  </div>
 </body>
 
 </html>
