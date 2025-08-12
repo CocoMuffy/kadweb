@@ -1,8 +1,14 @@
-#header {
-  background-color: lightblue;
-  color: black;
-  padding: 40px;
+#funny {
+  background-color: rgb(156, 51, 2);
+  color: white;
   text-align: center;
+  height: 50px;
+  width: 100%;
+}
+
+#main {
+  transition: margin-left .5s; 
+  padding: 20px;
 }
 
 .body {
@@ -31,15 +37,13 @@
 
 #menuImg{
     cursor: pointer;
-}
-
-#main {
-  transition: margin-left .5s; 
-  padding: 20px;
+    position: absolute;
+    top: 0.2;
+    right: 0;
 }
 
 .sidepanel {
-  height: 250px; /* Specify a height */
+  height: 100%; /* Specify a height */
   width: 0; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
   z-index: 1; /* Stay on top */
