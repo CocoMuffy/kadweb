@@ -10,8 +10,13 @@
 </head>
 
 <body>
-  <h1 id="funny">KAD</h1>
-  <img id="logo"src="./K.A.D. Final.png" alt="KAD LOGO" width="30" height="30)>
+  <div class="top">  
+  <img id="logo" src="./K.A.D. Final.png" alt="KAD LOGO" width="30" height="30">
+      <button id="menuImg" type="button" class="open" onclick="openNav()">
+    <img src="./menu.svg" alt="Menu" width="25" height="25">
+  </button>
+</div>
+
   <script src="script.js"></script>
     <div id="navSide" class="sidepanel">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -22,16 +27,13 @@
     <a href="#">Story Archive</a>
     <a href="#">Interested in Submitting?</a>
   </div>
-  <div id="main">
-    <button id="menuImg" type="button" class="open" onclick="openNav()">
-    <img src="./menu.svg" alt="Menu"width="25" height="25">
-  </button>
-  </div>
-  <p class="body"> KAD, or Kids Against Drugs is an organization started to address the problem in rural Kentucky of drug abuse and addiction.
+    <div id="main">
+    <p class="body"> KAD, or Kids Against Drugs is an organization started to address the problem in rural Kentucky of drug abuse and addiction.
     We want to do this through delivering real stories from real people that kids can connect with.</p>
   <hr>
-  <div id="realPeople">
+    <div id="realPeople">
     <h2>Real People. <br> Real Stories. <br></h2>
+    </div>
   </div>
 </body>
 </html>

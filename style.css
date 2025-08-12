@@ -1,17 +1,24 @@
-#funny {
+.top {
   background-color: rgb(156, 51, 2);
-  color: white;
-  text-align: right;
   height: 50px;
   width: 100%;
-  padding-right: 60px;
 }
 
 #logo {
   border: none;
-  text-align: right;
-  top:33px;
-  left: 5;
+  float: right;
+  padding-right: 25px;
+  position: absolute;
+  vertical-align: middle;
+}
+
+#menuImg{
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    border: none;
+    padding-left: 20px;
+    background-color: rgb(123, 40, 2);
 }
 
 #main {
@@ -42,15 +49,6 @@
     color: black;
 }
 
-#menuImg{
-    cursor: pointer;
-    position: absolute;
-    top: 33px;
-    right: 5;
-    border: none;
-    background-color: rgb(156, 51, 2);
-}
-
 .sidepanel {
   height: 100%; /* Specify a height */
   width: 0; /* 0 width - change this with JavaScript */
@@ -58,7 +56,7 @@
   z-index: 1; /* Stay on top */
   top: 0;
   left: 0;
-  background-color: #111; /* Black*/
+  background-color: #11111188; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
@@ -69,13 +67,13 @@
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: black;
   display: block;
   transition: 0.3s;
 }
 
 .sidepanel a:hover {
-  color: #f1f1f1;
+  text-decoration: underline;
 }
 
 .sidepanel .closebtn {
