@@ -90,3 +90,17 @@
 .openbtn:hover {
   background-color: #444;
 }
+
+.meetPeople {
+  display: grid;
+}
+
+.headshot {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+#angPic {
+}
