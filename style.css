@@ -122,8 +122,14 @@
 
 .subheader {
   font-size: 12px;
+  padding-bottom: 2px;
 }
 
 .sources {
-  font-size: 5px;
+  font-size: 7px;
+  padding-top: 2px;
+}
+
+.submitting {
+  padding: 5px;
 }
