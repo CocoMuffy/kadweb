@@ -27,6 +27,7 @@
 </h3>
 
 <h2 class="header">Requirements</h2>
+
 <div class="forms">
 <input type="checkbox" value="viable">
 <label for="viable">I have abused substances in my past.</label>
@@ -45,12 +46,19 @@
 
 <form class="submitting">
   <label for="email">Email Address</label>
-  <input type="email" id="email">
+  <input type="email" id="email" onclick=emailEntered()>
   <label for="fname">First Name</label>
-  <input type="text" id="fname">
+  <input type="text" id="fname" onclick=firstEntered()>
   <label for="lname">Last Name</label>
-  <input type="text" id="lname">
+  <input type="text" id="lname" onclick=lastEntered()>
   <br>
+  <label for="story">A snippet of your story here!</label>
+  <br>
+  <input type="text" id="story">
+</form>
+<p>You will get further information about your story through the email you provided. Please keep in touch!</p>
+<form>
+  <button id="submissionButton" type="button" class="open" onclick=submitInfo()></button>
 </form>
 
   <div id="navSide" class="sidepanel">
@@ -64,6 +72,6 @@
     <a href="./index.html">Back to Home</a>
   </div>
 
-    <script src="script.js"></script>
+    <script src="submissions.js"></script>
 </body>
 </html>
